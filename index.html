@@ -34,28 +34,265 @@
         <span class="text-gray-300">is now available!read about the new features and fixes from November</span>
     </section>
      
-    <div class=" flex h-[700px] mt-0 bg-zinc-800" >
-        <div>
-            <h1>Code editing. Redefined.</h1>
-            <p>Free. Built on open source. Runs everywhere.</p>
-            <div>
-            <button>
-                <div>Download for Windows</div>
-                <div>Stable Build</div>
+    <div class=" flex h-[650px] mt-0 bg-zinc-800" >
+        <div class="ml-[100px] mt-[60px]">
+            <h1 class="text-[48px] w-[300px] font-[-0.5px] text-center text-white ml-[35px]">Code editing. <br> Redefined.</h1>
+            <p class="text-[17.5px] ml-3 text-gray-400">Free. Built on open source. Runs everywhere.</p>
+            <div class="ml-[45px] mt-[18px]">
+            <button class="bg-blue-600 w-[230px] h-[68px]">
+                <div class="text-lg font-[20px] font-bold text-white">Download for Windows</div>
+                <div class="text-[14px] text-gray-300">Stable Build</div>
             </button>
-            <button>^</button>
+            <button class="bg-blue-600 w-[45px] h-[68px] relative top-[10px] ml-[-2px] text-white text-[18px]" >^</button>
         </div>
-        <button>
-            <span>Web</span>
-            <span>,</span>
-            <span>Insider edition</span>
-            <span>, or</span>
-            <span>other platforms</span>
+        <button class="bg-zinc-900 w-[278px] h-[35px] ml-[45px] mt-[15px] text-[13.5px] rounded-md">
+            <span class="text-blue-500 hover:underline">Web</span>
+            <span class="text-gray-400">,</span>
+            <span class="text-blue-500 hover:underline" >Insider edition</span>
+            <span class="text-gray-400">, or</span>
+            <span class="text-blue-500 hover:underline">other platforms</span>
         </button>
-        <div>By using VS Code, you agree to its</div>
-        <div>License and privacy statements</div>
+        <div class="w-[300px] ml-[35px] mt-[14px] text-[12px] text-center text-gray-400">By using VS Code, you agree to its</div>
+        <div class="w-[300px] ml-[35px] text-[12px] text-center text-blue-500 hover:underline">License and privacy statements</div>
     </div>
-        <div> <img src="./assets/vs_home.PNG" alt=""></div>
+        <div class="absolute right-[135px] top-[150px] "> <img class="w-[700px]" src="./assets/vs_home.PNG" alt=""></div>
+    </div>
+
+    <!-- Below first page -->
+    <div class=" flex h-[135px] justify-center space-x-8 ml-[]">
+        <div class="h-[135px] text-center w-[250px] hover:bg-gray-300">
+            <img  class="pl-[100px] pt-[20px]" src="./assets/bulb.PNG" alt="">
+            <p class="pt-[13px]">IntelliSense</p>
+        </div>
+        <div class="h-[135px] text-center w-[250px] hover:bg-gray-300">
+            <img class="pl-[90px] pt-[20px]" src="./assets/run_debug.PNG" alt="">
+            <p class="pt-[13px]">Run and Debug</p>
+        </div>
+        <div class="h-[135px] text-center w-[250px] hover:bg-gray-300">
+            <img class="pl-[95px] pt-[20px]" src="./assets/built_git.PNG" alt="">
+            <p class="pt-[13px]">Built In Git</p>
+        </div>
+        <div class="h-[135px] text-center w-[250px] hover:bg-gray-300">
+            <img class="pl-[88px] pt-[20px]" src="./assets/extention.PNG" alt="">
+            <p class="pt-[13px]">Extentions</p>
+        </div>
+    </div>
+    <!-- Media Part -->
+    <div class=" flex h-[350px] bg-neutral-100">
+        <div><img src="./assets/left_arrow.PNG" alt=""></div>
+         <div class="">
+            <img src="./assets/darren.PNG" alt="">
+            <p>Darren @MrDarrenV <br> 
+                Just as I thought @code couldn't get better, out comes its Remote Development plugins that let you remote into containers as a dev environment! 😍</p>
+         </div>
+          <div>
+            <img src="./assets/cassidy.PNG" alt="">
+            <p>Cassidy Williams @cassidoo <br>
+                 I was a vim fan, but then discovered VS Code's Vim plugin, which lets me add in my vim keybindings. I can maintain my coding style without having to compromise on speed.</p>
+          </div>
+          <div>
+            <img src="./assets/gift.PNG" alt="">
+            <p>Gift Egwuenu @lauragift21 <br>
+                I love @code The built-in markdown previewer is awesome and the plugin system allows me to use GitLens, which makes my workflow so much easier.</p>
+          </div>
+          <div><img src="./assets/right_aarrow.PNG" alt=""></div>
+    </div>
+
+    <!-- intellisense -->
+    <div class=" flex h-[370px]">
+        <div><img src="./assets/home-intellisense.svg" alt=""></div>
+        <div>
+            <h1>Meet IntelliSense.</h1>
+            <h4>Go beyond syntax highlighting and autocomplete with IntelliSense, which <br> provides smart completions based on variable types, function definitions, and <br> imported modules.</h4>
+        </div>
+    </div>
+
+    <!-- debuge -->
+
+    <div class="flex h-[370px] bg-neutral-100">
+        <div>
+            <h1>Print statement debugging is a thing of the past.</h1>
+            <h4>Debug code right from the editor. Launch or attach to your running apps and <br> debug with break points, call stacks, and an interactive console.</h4>
+        </div>
+        <div><img src="./assets/home-debug.svg" alt=""></div>
+    </div>
+
+    <!-- git -->
+    <div class="flex h-[370px]">
+      <div><img src="./assets/home-git.svg" alt=""></div>
+      <div>
+        <h1>Git commands built-in.</h1>
+        <h4>Working with Git and other SCM providers has never been easier. Review diffs, <br> stage files, and make commits right from the editor. Push and pull from any <br> hosted SCM service.</h4>
+      </div>
+    </div>
+
+    <!-- icons bar -->
+    <div class="flex h-[370px] bg-neutral-100">
+        <div>
+            <h1>Extensible and customizable.</h1>
+            <h4>Want even more features? Install extensions to add new languages, themes, <br> debuggers, and to connect to additional services. Extensions run in separate <br> processes, ensuring they won't slow down your editor. Learn more about <br> extensions.</h4>
+        </div>
+        <div><img src="./assets/Hundreds-of-Extensions.png" alt=""></div>
+    </div>
+
+    <!-- deploy -->
+    <div class="flex h-[370px]">
+        <div><img src="./assets/home-azure.svg" alt=""></div>
+        <div>
+            <h1>Deploy with confidence and ease</h1>
+            <h4>With Microsoft Azure you can deploy and host your React, Angular, Vue, Node, <br> Python (and more!) sites, store and query relational and document based data, <br> and scale with serverless computing, all with ease, all from within VS Code.</h4>
+        </div>
+    </div>
+    <!-- vs code for -->
+    <div class="h-[440px] bg-neutral-100">
+        <h1>VS Code for</h1>
+        <ul class="">
+            <li> <img src="./assets/js.svg" alt="">JavaScript</li>
+            <li> <img src="./assets/python.svg" alt="">Python</li>
+            <li> <img src="./assets/java.svg" alt="">Java</li>
+            <li> <img src="./assets/markdown.svg" alt="">Markdown</li>
+            <li> <img src="./assets/typescript.svg" alt="">TypeScript</li>
+            <li> <img src="./assets/cpp.svg" alt="">C/C++</li>
+            <li> <img src="./assets/json.svg" alt="">JSon</li>
+            <li> <img src="./assets/powershell.svg" alt="">PowerShell</li>
+            <li> <img src="./assets/html.svg" alt="">HTML/CSS</li>
+            <li> <img src="./assets/csharp.svg" alt="">C#</li>
+            <li> <img src="./assets/php.svg" alt="">PHP</li>
+            <li> <img src="./assets/yaml.svg" alt="">YAML</li>
+        </ul>
+        <P>and many more languages on the Marketplace...</P>
+        <BUTton>Get Started Now</Button>
+    </div>
+    
+    <!-- Lower section -->
+    <div class=" flex h-[440px]">
+      <div>
+        <img src="./assets/windows.PNG" alt="">
+        <button>
+            <img src="./assets/downarrow.svg" alt=""> Windows
+            <p>Windows 8,10,11</p>
+        </button>
+        <div>
+            <span>User Installer</span>
+            <span>x64</span>
+            <span>x86</span>
+            <span>Arm64</span>
+        </div>
+        <div>
+            <span>System Installer</span>
+            <span>x64</span>
+            <span>x86</span>
+            <span>Arm64</span>
+        </div>
+        <div>
+            <span>.zip</span>
+            <span>x64</span>
+            <span>x86</span>
+            <span>Arm64</span>
+        </div>
+        <div>
+            <span>CLI</span>
+            <span>x64</span>
+            <span>x86</span>
+            <span>Arm64</span>
+        </div>
+      </div>
+
+      <div>
+        <img src="./assets/monkey.PNG" alt="">
+        <button>
+            <img src="./assets/downarrow.svg" alt="">.deb
+            <p>debian, Ubuntu</p>
+        </button>
+        <button>
+            <img src="./assets/downarrow.svg" alt=""> .rpm
+            <p>Red Hat, Fedora, SUSE</p>
+        </button>
+        <div>
+            <span>.deb</span>
+            <span>x64</span>
+            <span>Arm32</span>
+            <span>Arm64</span>
+        </div>
+        <div>
+            <span>.rpm</span>
+            <span>x64</span>
+            <span>Arm32</span>
+            <span>Arm64</span>
+        </div>
+        <div>
+            <span>.tar.gz</span>
+            <span>x64</span>
+            <span>Arm32</span>
+            <span>Arm64</span>
+        </div>
+        <div>
+            <span>snap</span>
+            <span>Snap Store</span>
+        </div>
+        <div>
+            <span>CLI</span>
+            <span>x64</span>
+            <span>Arm32</span>
+            <span>Arm64</span>
+        </div>
+      </div>
+      <div>
+        <img src="./assets/apple.PNG" alt="">
+        <button>
+            <img src="./assets/downarrow.svg" alt="">Mac
+            <p>macOS 10.11+</p>
+        </button>
+        <div>
+            <span>.zip</span>
+            <span>Intel chip</span>
+            <span>Apple Silicon</span>
+            <span>Universal</span>
+        </div>
+        <div>
+            <span>CLI</span>
+            <span>Intel chip</span>
+            <span>Apple Silicon</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- second last footer -->
+    <div class="h-[370px] bg-neutral-100">
+        <div>
+            <div>
+                <h1>Want new features sooner?</h1>
+                <p>Get the Insiders build instead.</p>
+            </div>
+            <div>
+                <h1>Use vscode.dev for quick edits online!</h1>
+                <p>GitHub, Azure Repos, and local files.</p>
+            </div>
+        </div>
+        <div>
+         <h1>LICENSE AND PRIVACY TERMS</h1>
+         <h4>By downloading and using Visual Studio Code, you agree to the license terms and privacy statement. VS Code <br>
+             automatically sends telemetry data and crash dumps to help us improve the product. If you would prefer not <br>
+              to have this data sent please go see How to Disable Crash Reporting to learn how to disable it.</h4>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class=" flex h-[100px] bg-zinc-800"> 
+     <ul class="flex">
+        <li>Hello from Seattle.</li>
+        <li>Follow @Code</li>
+        <li><img src="./assets/footer.PNG" alt=""></li>
+     </ul>
+
+     <ul class="flex">
+        <li>Support</li>
+        <li>Privacy</li>
+        <li>Terms of Use</li>
+        <li>License</li>
+        <li><img class="w-[100px] h-[30px]" src="./assets/microsoft-logo.png" alt="">@2022 Microsoft</li>
+     </ul>
+
     </div>
 </body>
 </html>
