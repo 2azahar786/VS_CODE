@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VS CODE</title>
+    <title>VS_For_Education_Purpose</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="w-[100%]">
@@ -23,14 +23,14 @@
         <li class="hover:text-white">Learn</li>
      </ul>
      <div class="flex absolute right-[100px] items-center">
-        <button class="flex items-center pl-2 pr-[60px] h-[50px] bg-zinc-700 hover:bg-zinc-600 hover:border-gray-500 hover:border-[1px] text-gray-300"> <div class="mr-3 mt-0 items-center"><img class="h-[18px]" src="./assets/search_icon.svg" alt=""></div>Search Docs</button>
-        <button class="flex h-[50px] items-center bg-blue-600 pl-4 pr-5 text-white font-medium hover:bg-blue-700" > <div class="mr-3 mt-1 items-center"><img class="h-[18px]" src="./assets/downarrow.svg" alt=""></div>Download</button>
+        <Button class="flex items-center pl-2 pr-[60px] h-[50px] bg-zinc-700 hover:bg-zinc-600 hover:border-gray-500 hover:border-[1px] text-gray-300"> <div class="mr-3 mt-0 items-center"><img class="h-[18px]" src="./assets/search_icon.svg" alt=""></div>Search Docs</button>
+        <button class="flex h-[50px] items-center bg-blue-600 pl-4 pr-5 text-white font-medium hover:bg-blue-700" > <div class="mr-3 mt-1 items-center"><img class="h-[18px]" src="./assets/downarrow.svg" alt=""></div> <a href="https://code.visualstudio.com/Download">Download </a></button>
      </div>
     </nav>
 </div>
      <!-- below nav -->
      <section class="mt-[50px] h-[45px] bg-zinc-900 text-center pt-[9px] text-[16px] font-sm">
-        <span class="text-blue-700">Version 1.74</span>
+        <span class="text-blue-700 hover:underline"> <a href="https://code.visualstudio.com/updates/v1_74">Version 1.74</a></span>
         <span class="text-gray-300">is now available!read about the new features and fixes from November</span>
     </section>
      
@@ -40,8 +40,8 @@
             <p class="text-[17.5px] ml-3 text-gray-400">Free. Built on open source. Runs everywhere.</p>
             <div class="ml-[45px] mt-[18px]">
             <button class="bg-blue-600 w-[230px] h-[68px]">
-                <div class="text-lg font-[20px] font-bold text-white">Download for Windows</div>
-                <div class="text-[14px] text-gray-300">Stable Build</div>
+                <div class="text-lg font-[20px] font-bold text-white"><a href="https://code.visualstudio.com/docs/?dv=win">Download for Windows</div>
+                <div class="text-[14px] text-gray-300">Stable Build</div></a>
             </button>
             <button class="bg-blue-600 w-[45px] h-[68px] relative top-[10px] ml-[-2px] text-white text-[18px]" >^</button>
         </div>
@@ -133,9 +133,9 @@
     <div class="flex h-[370px] bg-neutral-100 items-center  space-x-[150px]">
         <div class="ml-[8%]">
             <h1 class="text-[30px] relative bottom-[5px] text-gray-700 font-thin ">Extensible and customizable.</h1>
-            <h4 class="text-lg pt-[15px] pb-[15px] text-gray-600 leading-9 mb-[15px]">Want even more features? Install extensions to add new languages, themes, <br> debuggers, and to connect to additional services. Extensions run in separate <br> processes, ensuring they won't slow down your editor. <span class="text-blue-500 hover:underline">Learn more about <br> extensions.</span></h4>
+            <h4 class="text-lg pt-[15px] pb-[15px] text-gray-600 leading-9 mb-[15px]">Want even more features? Install extensions to add new languages, themes, <br> debuggers, and to connect to additional services. Extensions run in separate <br> processes, ensuring they won't slow down your editor. <span class="text-blue-500 hover:underline"> <a href="https://code.visualstudio.com/docs/editor/extension-marketplace"> Learn more about <br> extensions.</a></span></h4>
         </div>
-        <div class=" relative bottom-[95px] right-[%]  h-[20%] w-[28%]"><img src="./assets/Hundreds-of-Extensions.png" alt=""></div>
+        <div class=" relative bottom-[95px] right-[%]  h-[20%] w-[28%] hover:scale-[1.2]"> <a href="https://marketplace.visualstudio.com/VSCode"><img src="./assets/Hundreds-of-Extensions.png" alt=""></a></div>
     </div>
 
     <!-- deploy -->
@@ -143,7 +143,7 @@
         <div class="mt-[25px]"><img src="./assets/home-azure.svg" alt=""></div>
         <div>
             <h1 class="text-[35px] relative bottom-[20px] text-gray-600 font-thin">Deploy with confidence and ease</h1>
-            <h4 class="text-lg pt-[15px] pb-[15px] text-gray-600 leading-9">With <span class="text-blue-500 hover:underline"> <a href="https://azure.microsoft.com/en-us/">Microsoft Azure</a> </span> you can deploy and host your React, Angular, Vue, Node, <br> Python (and more!) sites, store and query relational and document based data, <br> and scale with serverless computing, all with ease, <span class="text-blue-500 hover:underline">all from within VS Code.</span></h4>
+            <h4 class="text-lg pt-[15px] pb-[15px] text-gray-600 leading-9">With <span class="text-blue-500 hover:underline"> <a href="https://azure.microsoft.com/en-us/">Microsoft Azure</a> </span> you can deploy and host your React, Angular, Vue, Node, <br> Python (and more!) sites, store and query relational and document based data, <br> and scale with serverless computing, all with ease, <span class="text-blue-500 hover:underline"> <a href="https://code.visualstudio.com/docs/azure/extensions">all from within VS Code.</a></span></h4>
         </div>
     </div>
     <!-- vs code for -->
@@ -176,128 +176,129 @@
       <div>
         <img class="relative bottom-[15px] left-[70px]" src="./assets/windows.PNG" alt="">
         <button class="bg-blue-600 h-[70px] w-[250px] text-white hover:bg-blue-700">
-            <img class="h-[18px] relative top-[12px] left-[60px]" src="./assets/downarrow.svg" alt=""> <span class="text-[20px] relative bottom-[12px] left-[10px] font-semibold">Windows </span><br>
-            <p class="text-[12px] font-semibold relative bottom-[8px] right-[7px]">Windows 8, 10, 11</p>
+            <a href="https://code.visualstudio.com/docs/?dv=win"><img class="h-[18px] relative top-[12px] left-[60px]" src="./assets/downarrow.svg" alt=""> <span class="text-[20px] relative bottom-[12px] left-[10px] font-semibold">Windows </span><br>
+            <p class="text-[12px] font-semibold relative bottom-[8px] right-[7px]">Windows 8, 10, 11</p> </a>
         </button>
         <div class="ml-[30px] mt-[20px] ">
             <span class="font-semibold text-gray-600">User Installer</span>
-            <span class="ml-[12px] bg-blue-600 hover:bg-blue-700 text-white rounded-sm leading-2">x64</span>
-            <span class="bg-blue-600 text-white hover:bg-blue-700 rounded-sm leading-2 ml-[-1px]">x86</span>
-            <span class="bg-blue-600 text-white hover:bg-blue-700 rounded-sm leading-2">Arm64</span>
+            <span class="ml-[12px] bg-blue-600 hover:bg-blue-700 text-white rounded-sm leading-2 pl-1 pr-1">x64</span>
+            <span class="bg-blue-600 text-white hover:bg-blue-700 rounded-sm leading-2 ml-[-1px] pl-1 pr-1">x86</span>
+            <span class="bg-blue-600 text-white hover:bg-blue-700 rounded-sm leading-2 pl-1 pr-1">Arm64</span>
         </div>
         <div class="ml-[22px] mt-[3px]">
             <span class="font-semibold text-gray-600 relative right-[5px]">System Installer</span>
-            <span class="bg-blue-600 hover:bg-blue-700 text-white rounded-sm leading-2">x64</span>
-            <span class="bg-blue-600 text-white hover:bg-blue-700 rounded-sm leading-2 ml-[-1px]">x86</span>
-            <span class="bg-blue-600 text-white hover:bg-blue-700 rounded-sm leading-2">Arm64</span>
+            <span class="bg-blue-600 hover:bg-blue-700 text-white rounded-sm leading-2 pl-1 pr-1">x64</span>
+            <span class="bg-blue-600 text-white hover:bg-blue-700 rounded-sm leading-2 ml-[-1px] pl-1 pr-1">x86</span>
+            <span class="bg-blue-600 text-white hover:bg-blue-700 rounded-sm leading-2 pl-1 pr-1">Arm64</span>
         </div>
         <div class="ml-[110px] mt-[3px]">
             <span class="font-semibold text-gray-600 relative right-[50px]">.zip</span>
-            <span class="bg-blue-600 hover:bg-blue-700 text-white rounded-sm leading-2">x64</span>
-            <span class="bg-blue-600 text-white hover:bg-blue-700 rounded-sm leading-2 ml-[-1px]">x86</span>
-            <span class="bg-blue-600 text-white hover:bg-blue-700 rounded-sm leading-2">Arm64</span>
+            <span class="bg-blue-600 hover:bg-blue-700 text-white rounded-sm leading-2 pl-1 pr-1">x64</span>
+            <span class="bg-blue-600 text-white hover:bg-blue-700 rounded-sm leading-2 ml-[-1px] pl-1 pr-1">x86</span>
+            <span class="bg-blue-600 text-white hover:bg-blue-700 rounded-sm leading-2 pl-1 pr-1">Arm64</span>
         </div>
         <div class="ml-[113px] mt-[15px]">
             <span class="font-semibold text-gray-600 relative right-[50px]">CLI</span>
-            <span class="bg-blue-600 hover:bg-blue-700 text-white rounded-sm leading-2">x64</span>
-            <span class="bg-blue-600 text-white hover:bg-blue-700 rounded-sm leading-2 ml-[-1px]">x86</span>
-            <span class="bg-blue-600 text-white hover:bg-blue-700 rounded-sm leading-2">Arm64</span>
+            <span class="bg-blue-600 hover:bg-blue-700 text-white rounded-sm leading-2 pl-1 pr-1">x64</span>
+            <span class="bg-blue-600 text-white hover:bg-blue-700 rounded-sm leading-2 ml-[-1px] pl-1 pr-1">x86</span>
+            <span class="bg-blue-600 text-white hover:bg-blue-700 rounded-sm leading-2 pl-1 pr-1">Arm64</span>
         </div>
       </div>
 
       <div>
-        <img src="./assets/monkey.PNG" alt="">
-        <button>
-            <img src="./assets/downarrow.svg" alt="">.deb
-            <p>debian, Ubuntu</p>
+        <img class="relative top-[8px] left-[90px]" src="./assets/monkey.PNG" alt="">
+        <button class="bg-blue-600 h-[70px] w-[140px] text-white hover:bg-blue-700 mt-[30px]">
+            <a href="https://code.visualstudio.com/docs/?dv=linux64_deb"><img class="h-[18px] relative top-[12px] left-[30px]" src="./assets/downarrow.svg" alt=""> <span class="text-[20px] relative bottom-[12px] left-[10px] font-semibold">.deb</span> <br>
+            <p class="text-[12px] font-semibold relative bottom-[8px] right-[7px]">debian, Ubuntu</p></a>
         </button>
-        <button>
-            <img src="./assets/downarrow.svg" alt=""> .rpm
-            <p>Red Hat, Fedora, SUSE</p>
+        <button class="bg-blue-600 h-[70px] w-[140px] text-white hover:bg-blue-700">
+            <a href="https://code.visualstudio.com/docs/?dv=linux64_rpm"><img class="h-[18px] relative top-[12px] left-[30px]" src="./assets/downarrow.svg" alt=""> <span class="text-[20px] relative bottom-[12px] left-[10px] font-semibold">.rpm</span> <br>
+            <p class="text-[11.5px] font-semibold relative bottom-[8px] right-[7px]">Red Hat, Fedora, SUSE</p></a>
         </button>
-        <div>
-            <span>.deb</span>
-            <span>x64</span>
-            <span>Arm32</span>
-            <span>Arm64</span>
+        <div class="ml-[60px] mt-[20px] ">
+            <span class="font-semibold text-gray-600">.deb</span>
+            <span class="ml-[12px] bg-blue-600 hover:bg-blue-700 text-white rounded-sm leading-2 pl-1 pr-1">x64</span>
+            <span class="bg-blue-600 text-white hover:bg-blue-700 rounded-sm leading-2 ml-[-1px] pl-1 pr-1">Arm32</span>
+            <span class="bg-blue-600 text-white hover:bg-blue-700 rounded-sm leading-2 pl-1 pr-1">Arm64</span>
         </div>
-        <div>
-            <span>.rpm</span>
-            <span>x64</span>
-            <span>Arm32</span>
-            <span>Arm64</span>
+        <div class="ml-[58px] mt-[3px] ">
+            <span class="font-semibold text-gray-600">.rpm</span>
+            <span class="ml-[12px] bg-blue-600 hover:bg-blue-700 text-white rounded-sm leading-2 pl-1 pr-1">x64</span>
+            <span class="bg-blue-600 text-white hover:bg-blue-700 rounded-sm leading-2 ml-[-1px] pl-1 pr-1">Arm32</span>
+            <span class="bg-blue-600 text-white hover:bg-blue-700 rounded-sm leading-2 pl-1 pr-1">Arm64</span>
         </div>
-        <div>
-            <span>.tar.gz</span>
-            <span>x64</span>
-            <span>Arm32</span>
-            <span>Arm64</span>
+        <div class="ml-[48px] mt-[3px] ">
+            <span class="font-semibold text-gray-600">.tar.gz</span>
+            <span class="ml-[12px] bg-blue-600 hover:bg-blue-700 text-white rounded-sm leading-2 pl-1 pr-1">x64</span>
+            <span class="bg-blue-600 text-white hover:bg-blue-700 rounded-sm leading-2 ml-[-1px] pl-1 pr-1">Arm32</span>
+            <span class="bg-blue-600 text-white hover:bg-blue-700 rounded-sm leading-2 pl-1 pr-1">Arm64</span>
         </div>
-        <div>
-            <span>snap</span>
-            <span>Snap Store</span>
+        <div class="ml-[57px] mt-[3px] ">
+            <span class="font-semibold text-gray-600">snap</span>
+            <span class="ml-[12px] bg-blue-600 hover:bg-blue-700 text-white rounded-sm leading-2 pl-1 pr-1">Snap Store</span>
         </div>
-        <div>
-            <span>CLI</span>
-            <span>x64</span>
-            <span>Arm32</span>
-            <span>Arm64</span>
+        <div class="ml-[69px] mt-[15px] ">
+            <span class="font-semibold text-gray-600">CLI</span>
+            <span class="ml-[12px] bg-blue-600 hover:bg-blue-700 text-white rounded-sm leading-2 pl-1 pr-1">x64</span>
+            <span class="bg-blue-600 text-white hover:bg-blue-700 rounded-sm leading-2 ml-[-1px] pl-1 pr-1">Arm32</span>
+            <span class="bg-blue-600 text-white hover:bg-blue-700 rounded-sm leading-2 pl-1 pr-1">Arm64</span>
         </div>
       </div>
-      <div>
-        <img src="./assets/apple.PNG" alt="">
-        <button>
-            <img src="./assets/downarrow.svg" alt="">Mac
-            <p>macOS 10.11+</p>
+
+      <div class="relative bottom-[35px]">
+        <img class="relative bottom-[12px] left-[70px]" src="./assets/apple.PNG" alt="">
+        <button class="bg-blue-600 h-[70px] w-[250px] text-white hover:bg-blue-700">
+            <a href="https://code.visualstudio.com/docs/?dv=osx"><img class="h-[18px] relative top-[12px] left-[80px]" src="./assets/downarrow.svg" alt=""> <span class="text-[20px] relative bottom-[12px] left-[10px] font-semibold"> Mac </span> <br>
+            <p class="text-[12px] font-semibold relative bottom-[8px] right-[7px]">macOS 10.11+</p></a>
         </button>
-        <div>
-            <span>.zip</span>
-            <span>Intel chip</span>
-            <span>Apple Silicon</span>
-            <span>Universal</span>
+        <div class="ml-[10px] mt-[20px] text-[14px]">
+            <span class="font-semibold text-gray-600">.zip</span>
+            <span class="ml-[px] bg-blue-600 hover:bg-blue-700 text-white rounded-sm pl-1 pr-1">Intel chip</span>
+            <span class="bg-blue-600 text-white hover:bg-blue-700 rounded-sm leading-2 ml-[-1px] pl-1 pr-1">Apple Silicon</span>
+            <span class="bg-blue-600 text-white hover:bg-blue-700 rounded-sm leading-2 pl-1 pr-1">Universal</span>
         </div>
-        <div>
-            <span>CLI</span>
-            <span>Intel chip</span>
-            <span>Apple Silicon</span>
+        <div class="ml-[10px] mt-[15px] text-[14px]">
+            <span class="font-semibold text-gray-600">CLI</span>
+            <span class="ml-[2px] bg-blue-600 hover:bg-blue-700 text-white rounded-sm leading-2 pl-1 pr-1">Intel chip</span>
+            <span class="bg-blue-600 text-white hover:bg-blue-700 rounded-sm leading-2 pl-1 pr-1">Apple Silicon</span>
         </div>
       </div>
     </div>
 
     <!-- second last footer -->
     <div class="h-[370px] bg-neutral-100">
-        <div>
-            <div>
-                <h1>Want new features sooner?</h1>
-                <p>Get the Insiders build instead.</p>
+        <div class="flex justify-center gap-[280px]">
+            <div class=" mt-[35px]">
+                <h1 class="text-[22px] font-semibold">Want new features sooner?</h1>
+                <p class="text-[18px]  text-gray-600 ml-[15px] mt-[9px]">Get the <a class="text-blue-600 hover:underline hover:text-blue-900" href="https://code.visualstudio.com/insiders/">Insiders build</a> instead.</p>
             </div>
-            <div>
-                <h1>Use vscode.dev for quick edits online!</h1>
-                <p>GitHub, Azure Repos, and local files.</p>
+            <div class="mt-[35px]">
+                <h1 class="text-[22px] font-semibold">Use <a class="text-blue-600 hover:underline hover:text-blue-900" href="https://vscode.dev/">vscode.dev</a> for quick edits <br> <span class="ml-[130px]" >online!</span></h1>
+                <p class="text-[18px]  text-gray-600 ml-[15px] mt-[10px]">GitHub, Azure Repos, and local files.</p>
             </div>
         </div>
-        <div>
-         <h1>LICENSE AND PRIVACY TERMS</h1>
-         <h4>By downloading and using Visual Studio Code, you agree to the license terms and privacy statement. VS Code <br>
+        <div class=" text-center mt-[50px]">
+         <h1 class="text-[12px] font-semibold text-gray-600">LICENSE AND PRIVACY TERMS</h1>
+         <h4 class="text-[13px] text-gray-500 leading-10 mt-[10px]">By downloading and using Visual Studio Code, you agree to the <a class="text-blue-600 hover:underline hover:text-blue-900" href="https://code.visualstudio.com/License/">license terms</a> and <a class="text-blue-600 hover:underline hover:text-blue-900" href="https://privacy.microsoft.com/en-US/privacystatement">privacy statement.</a> VS Code <br>
              automatically sends telemetry data and crash dumps to help us improve the product. If you would prefer not <br>
-              to have this data sent please go see How to Disable Crash Reporting to learn how to disable it.</h4>
+              to have this data sent please go see <a class="text-blue-600 hover:underline hover:text-blue-900" href="https://code.visualstudio.com/docs/supporting/FAQ#_how-to-disable-crash-reporting">How to Disable Crash Reporting</a> to learn how to disable it.</h4>
         </div>
     </div>
 
     <!-- footer -->
-    <div class=" flex h-[100px] bg-zinc-800"> 
-     <ul class="flex">
+    <div class=" flex h-[100px] bg-zinc-800 text-white text-[14px] font-normal"> 
+     <ul class="flex absolute left-[8%] mt-[32px] gap-[22px]">
         <li>Hello from Seattle.</li>
-        <li>Follow @Code</li>
-        <li><img src="./assets/footer.PNG" alt=""></li>
-     </ul>
+        <li> <a class="hover:text-blue-700" href="https://twitter.com/intent/follow?&original_referer=https://code.visualstudio.com/&screen_name=code">Follow @code</a></li>
+        <li> <a href="https://github.com/Microsoft/vscode/"><img src="./assets/footer.PNG" alt=""></a></li>
+     </ul> 
 
-     <ul class="flex">
-        <li>Support</li>
-        <li>Privacy</li>
-        <li>Terms of Use</li>
-        <li>License</li>
-        <li><img class="w-[100px] h-[30px]" src="./assets/microsoft-logo.png" alt="">@2022 Microsoft</li>
+     <ul class="flex absolute right-[8%] mt-[32px] gap-[22px]">
+        <li> <a class="hover:text-blue-700" href="https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=d66407ed-3967-b000-4cfb-2c318cad363d">Support</a></li>
+        <li> <a class="hover:text-blue-700" href="https://privacy.microsoft.com/en-US/privacystatement">Privacy</a></li>
+        <li> <a class="hover:text-blue-700" href="https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=d66407ed-3967-b000-4cfb-2c318cad363d">Terms of Use</a></li>
+        <li> <a class="hover:text-blue-700" href="https://code.visualstudio.com/License">License</a></li>
+        <li> <a href="https://www.microsoft.com/en-in/"><img class="w-[100px] h-[20px]" src="./assets/microsoft-logo.png" alt=""></a>@2022 Microsoft</li>
      </ul>
 
     </div>
